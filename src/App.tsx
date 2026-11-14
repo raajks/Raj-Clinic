@@ -5,6 +5,7 @@ import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
 import { FloatingActions } from './components/layout/FloatingActions';
 import { ScrollToTop } from './components/layout/ScrollToTop';
+import { EventModal } from './components/common/EventModal';
 
 // Pages
 import { Home } from './pages/Home';
@@ -24,6 +25,7 @@ export const App: React.FC = () => {
   return (
     <div className="min-h-screen flex flex-col bg-slate-surface text-slate-text font-sans">
       <ScrollToTop />
+      <EventModal />
       <TopAnnouncementBar />
       <Navbar />
 
